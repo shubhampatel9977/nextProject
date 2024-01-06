@@ -1,0 +1,82 @@
+.main {
+    padding: 20px 50px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.heading h2 {
+    font-size: 25px;
+    margin: 0px;
+}
+
+.web-box {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.form-desing {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.form-inputs {
+    width: 33.33%;
+    padding: 0px 15px 15px;
+    text-align: center;
+}
+
+.form-inputs input {
+    padding: 8px 10px;
+    width: 100%;
+}
+
+.form-inputs select {
+    padding: 8px 10px;
+    width: 100%;
+}
+
+.table-desing {
+    border-top: 2px solid black;
+    margin-top: 50px;
+    height: 350px;
+    overflow-x: auto;
+}
+
+.table-desing table {
+    width: 100%;
+}
+
+.table-desing table thead {
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.table-desing tr td {
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+}
+
+.table-desing tr th {
+    padding: 8px 15px;
+    text-align: left;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
